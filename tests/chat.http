@@ -1,0 +1,10 @@
+### Test POST request for chat endpoint
+POST http://0.0.0.0:8000/chat
+Content-Type: application/json
+
+{
+    "prompt": "Hello, how are you?"
+}
+
+###
+
